@@ -1,0 +1,89 @@
+.container {
+  background-color: white;
+  width: 80%;
+  height: 550px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.controlBox {
+  background: rgb(0, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 29%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.error {
+  color: red;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  height: 40px;
+}
+
+.input {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  color: rgb(58, 52, 52);
+}
+
+.outline {
+  border: 2px solid red;
+}
+
+.button {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  color: rgb(58, 52, 52);
+}
+
+.button:hover {
+  background-color: rgb(78, 102, 218);
+  color: white;
+}
+
+h4 {
+  color: black;
+  margin: 5px;
+}
+
+p {
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.taskBox {
+  background-color: white;
+  padding: 20px;
+  height: 70%;
+}
+
+.taskList {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.taskDone {
+  text-decoration: line-through;
+}

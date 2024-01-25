@@ -1,0 +1,34 @@
+.editBox {
+  position: absolute;
+  bottom: 0px;
+  background-color: grey;
+  width: 100%;
+}
+
+.editControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.editButtons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.editButton {
+  padding: 10px 40px;
+}
+
+.editInput {
+  height: 70px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
